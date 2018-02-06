@@ -1,6 +1,7 @@
 .phone-panel {
   color: #fff;
   min-height: auto;
+  border-radius: initial;
 }
 
 .icons-panel {
@@ -23,6 +24,18 @@
   text-transform: uppercase;
 }
 
+.img-drag {
+  /*width: 33%; */
+  background-color: red;
+  height: 13em;
+  padding: 0;
+  overflow: hidden;
+}
+
+.img-drag img {
+  height: 100%;
+  /*min-height: 13em;*/
+}
 
 
 
