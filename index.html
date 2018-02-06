@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <meta name="keywords" content="HTML5, CSS3, Javascript"> -->
   <title>InstaCollage</title>
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/main.css">
@@ -12,9 +13,9 @@
   <nav class="navbar navbar-inverse phone-panel">
   <div class="container-fluid">
     <div class="row">
-      <div class="col-xs-4"><span><i class="fas fa-signal"></i></span></div>
+      <div class="col-xs-4"><span class="icons-panel"><i class="fas fa-signal"></i></span><span class="icons-panel"><i class="fas fa-wifi"></i></span></div>
       <div class="col-xs-4 text-center"><span>9:00</span></div>
-      <div class="col-xs-4"><span><i class="fas fa-battery-three-quarters pull-right"></i></span></div>
+      <div class="col-xs-4"><span class="icons-panel"><i class="fas fa-battery-three-quarters pull-right"></i></span></div>
     </div>
   </div>
 </nav>
@@ -22,15 +23,29 @@
   <section class="container-fluid">
     
   </section>
+  <section class="container-fluid separator">
+    <p class="text-center midtext">photo booth</p>
+  </section>
 <!-- segunda sección, fotos arrastrables -->
   <section class="container-fluid">
     
   </section>
 
-  <footer>
-    
+  <footer class="navbar-fixed-bottom">
+    <div class="container row">
+      <div class="col-xs-4">
+        <p class="footer-text text-center text-selected">camera roll <i class="fas fa-chevron-down"></i></p>
+      </div>
+      <div class="col-xs-4">
+        <p class="footer-text text-center">faces</p>
+      </div>
+      <div class="col-xs-4">
+        <p class="footer-text text-center">recents</p>
+      </div>
+    </div>
   </footer>
-  <script src="assets/js/jquery-3.3.1.min.js"  </script>
+
+  <script src="assets/js/jquery-3.3.1.min.js"></script>
   <script src="assets/js/bootstrap.min.js"></script>
   <script src="assets/js/app.js"></script>
 </body>

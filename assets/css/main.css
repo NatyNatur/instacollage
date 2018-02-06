@@ -2,3 +2,41 @@
   color: #fff;
   min-height: auto;
 }
+
+.icons-panel {
+  margin: 0em 0.2em;
+}
+
+
+
+.separator {
+  height: 2.5em;
+  background: #26272B;
+  padding: 0.5em;
+}
+
+.midtext {
+  color: #6097c3;
+  text-transform: uppercase;
+}
+
+
+
+
+
+
+footer {
+  background: #2F3032;
+  height: 4em;
+  padding: .5em 0em;
+}
+
+.footer-text {
+  text-transform: uppercase;
+  color: #AEA9A9;
+  font-size: 1em;
+}
+
+.text-selected {
+  color: #46A4B5;
+}
