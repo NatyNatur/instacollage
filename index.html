@@ -10,9 +10,34 @@
   <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 </head>
 <body>
-  <nav class="navbar navbar-inverse phone-panel">
-  <div class="container-fluid">
-    <div class="row">
+
+  <div class="pages text-center" id="logpage">
+    <div class="language">
+    
+    </div>
+    <div class="login">
+      <img src="assets/images/instagram.png" alt="Instagram" class="igram">
+      <div class="input-group center-block">
+        <input type="email" id="mailInput" required class="form-control" placeholder="mail" aria-describedby="basic-addon1">
+        <input type="password" id="passInput" required class="form-control" placeholder="password" aria-describedby="basic-addon1">
+        <div class="btn-group btn-group-justified" role="group" aria-label="...">
+          <div class="btn-group" role="group">
+          <button type="button" class="btn btn-default" id="btnSign">Iniciar sesión</button>
+          </div>
+        </div>
+      </div> <!-- cierro input -->
+      <div class="gettinghelp">
+        <p>¿Has olvidado tu información de inicio de sesión? <a href="#">Obtén ayuda</a></p>
+        <p>o</p>
+        <p class="logfb"><i class="fab fa-facebook-square"></i> Inicia sesión con Facebook</p>
+      </div>
+    </div> <!-- cierro login -->
+  </div> <!-- cierro logpage -->
+
+  <div class="pages" id="collagepage">
+    <nav class="navbar navbar-inverse phone-panel">
+    <div class="container-fluid">
+      <div class="row">
       <div class="col-xs-4"><span class="icons-panel"><i class="fas fa-signal"></i></span><span class="icons-panel"><i class="fas fa-wifi"></i></span></div>
       <div class="col-xs-4 text-center"><span>9:00</span></div>
       <div class="col-xs-4"><span class="icons-panel"><i class="fas fa-battery-three-quarters pull-right"></i></span></div>
@@ -55,6 +80,7 @@
       </div>
     </div>
   </footer>
+  </div> <!-- cierro #collage -->
 
   <script src="assets/js/jquery-3.3.1.min.js"></script>
   <script src="assets/js/bootstrap.min.js"></script>

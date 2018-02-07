@@ -11,6 +11,52 @@
   color: white;
 }
 
+.igram {
+  color: #FFF;
+}
+
+.input-group {
+  width: 50%;
+}
+
+.input-group .form-control {
+  margin-bottom: 1em;
+}
+
+#mailInput, #passInput {
+  background-color: #ffffff26;
+  border: none;
+  color: #FFF;
+}
+
+#mailInput::placeholder, #passInput::placeholder {
+  color: #FFF;
+}
+
+#btnSign {
+  color: #FFF;
+  background-color: transparent;
+  font-weight: 600;
+  outline: none;
+}
+
+.gettinghelp {
+  margin-top: 2em;
+}
+
+.gettinghelp p a {
+  color: #FFF;
+  font-weight: 600;
+}
+
+p {
+  font-size: 1em;
+}
+
+.logfb {
+  font-size: 1.1em;
+  font-weight: 600;
+}
 
 /* Page 1 */
 
