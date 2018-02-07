@@ -21,10 +21,10 @@
 </nav>
 <!-- primera sección, recibe imágenes -->
   <section class="container-fluid">
-    <div class="receivercont">
-      <div class="img1" ondragover="allowDrop(event)" ondrop="drop(event)"></div>
-      <div class="img2" ondragover="allowDrop(event)" ondrop="drop(event)"></div>
-      <div class="img3" ondragover="allowDrop(event)" ondrop="drop(event)"></div>
+    <div class="row receiver-cont">
+      <div class="contdrop-left-up" ondragover="allowDrop(event)" ondrop="drop(event)"></div>
+      <div class="contdrop-right" ondragover="allowDrop(event)" ondrop="drop(event)"></div>
+      <div class="contdrop-left-down" ondragover="allowDrop(event)" ondrop="drop(event)"></div>
     </div>
   </section>
   <section class="container-fluid separator">
@@ -33,12 +33,12 @@
 <!-- segunda sección, fotos arrastrables -->
   <section class="container-fluid">
     <div class="row">
-      <div class="col-xs-4 img-drag"><img src="assets/images/cat-coder.jpg" alt="" class="img-responsive">  </div>
-      <div class="col-xs-4 img-drag"><img src="assets/images/KittenCareHandbook.jpg" alt="" class="img-responsive"></div>
-      <div class="col-xs-4 img-drag"><img src="assets/images/meme-joke.jpeg" alt="" class="img-responsive"></div>
-      <div class="col-xs-4 img-drag"><img src="assets/images/laboratoria-coders.jpeg" alt="" class="img-responsive"></div>
-      <div class="col-xs-4 img-drag"><img src="assets/images/lindt-balls-milk-chocolate.jpeg" alt="" class="img-responsive"></div>
-      <div class="col-xs-4 img-drag"><img src="assets/images/hamilton_hipster_cat.jpg" alt="" class="img-responsive"></div>
+      <div class="col-xs-4 img-drag"><img src="assets/images/cat-coder.jpg" alt="" class="img-responsive" draggable="true" ondragstart="drag(event)" id="img0">  </div>
+      <div class="col-xs-4 img-drag"><img src="assets/images/KittenCareHandbook.jpg" alt="" class="img-responsive" draggable="true" ondragstart="drag(event)" id="img1"></div>
+      <div class="col-xs-4 img-drag"><img src="assets/images/meme-joke.jpeg" alt="" class="img-responsive" draggable="true" ondragstart="drag(event)" id="img2"></div>
+      <div class="col-xs-4 img-drag"><img src="assets/images/laboratoria-coders.jpeg" alt="" class="img-responsive" draggable="true" ondragstart="drag(event)" id="img3"></div>
+      <div class="col-xs-4 img-drag"><img src="assets/images/lindt-balls-milk-chocolate.jpeg" alt="" class="img-responsive" draggable="true" ondragstart="drag(event)" id="img4"></div>
+      <div class="col-xs-4 img-drag"><img src="assets/images/hamilton_hipster_cat.jpg" alt="" class="img-responsive" draggable="true" ondragstart="drag(event)" id="img5"></div>
     </div>
   </section>
 
