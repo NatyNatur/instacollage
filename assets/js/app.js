@@ -1,4 +1,6 @@
 $(document).ready( function () {
+  $('#page_1').hide();
+
   $(window).resize( function () {
     var imgWidth = $(this).width();
     // Imagenes con height responsivo
